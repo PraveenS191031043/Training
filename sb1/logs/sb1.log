@@ -1,0 +1,242 @@
+*[INFO ]-- Starting Sb1Application using Java 17.0.3.1 with PID 10224 (D:\praveen\springboot\sb1\target\classes started by praveen.s in D:\praveen\springboot\sb1)--
+*[DEBUG]-- Running with Spring Boot v3.2.0, Spring v6.1.1--
+*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
+*[INFO ]-- Starting service [Tomcat]--
+*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.16]--
+*[INFO ]-- Initializing Spring embedded WebApplicationContext--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb1 user=SA--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Started Sb1Application in 7.138 seconds (process running for 7.896)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[INFO ]-- Starting Sb1Application using Java 17.0.3.1 with PID 2716 (D:\praveen\springboot\sb1\target\classes started by praveen.s in D:\praveen\springboot\sb1)--
+*[DEBUG]-- Running with Spring Boot v3.2.0, Spring v6.1.1--
+*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
+*[INFO ]-- Starting service [Tomcat]--
+*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.16]--
+*[INFO ]-- Initializing Spring embedded WebApplicationContext--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb1 user=SA--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Started Sb1Application in 3.045 seconds (process running for 3.347)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[INFO ]-- Starting Sb1Application using Java 17.0.3.1 with PID 19184 (D:\praveen\springboot\sb1\target\classes started by praveen.s in D:\praveen\springboot\sb1)--
+*[DEBUG]-- Running with Spring Boot v3.2.0, Spring v6.1.1--
+*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
+*[INFO ]-- Starting service [Tomcat]--
+*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.16]--
+*[INFO ]-- Initializing Spring embedded WebApplicationContext--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb1 user=SA--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Started Sb1Application in 3.091 seconds (process running for 3.396)--
+*[INFO ]-- Initializing Spring DispatcherServlet 'dispatcherServlet'--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[ERROR]-- Failed to create log file--
+java.nio.file.FileAlreadyExistsException: logs\1701835843136-sb1.log
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at com.kgisl.sb1.LoggingInterceptor.preHandle(LoggingInterceptor.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+*[INFO ]-- State: before request reaches controller--
+*[ERROR]-- Failed to create log file--
+java.nio.file.FileAlreadyExistsException: logs\1701835843072-sb1.log
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at com.kgisl.sb1.LoggingInterceptor.preHandle(LoggingInterceptor.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[INFO ]-- State: before request reaches controller--
+*[WARN ]-- State: warn--
+*[DEBUG]-- State: debug--
+*[ERROR]-- State: error--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- Init duration for springdoc-openapi is: 263 ms--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[INFO ]-- Starting Sb1Application using Java 17.0.3.1 with PID 16724 (D:\praveen\springboot\sb1\target\classes started by praveen.s in D:\praveen\springboot\sb1)--
+*[DEBUG]-- Running with Spring Boot v3.2.0, Spring v6.1.1--
+*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
+*[INFO ]-- Starting service [Tomcat]--
+*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.16]--
+*[INFO ]-- Initializing Spring embedded WebApplicationContext--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb1 user=SA--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Started Sb1Application in 3.054 seconds (process running for 3.379)--
+*[INFO ]-- Initializing Spring DispatcherServlet 'dispatcherServlet'--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- State: before request reaches controller--
+*[DEBUG]-- State: debug--
+*[INFO ]-- State: info--
+*[WARN ]-- State: warn--
+*[ERROR]-- State: error--
+*[INFO ]-- Init duration for springdoc-openapi is: 167 ms--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
