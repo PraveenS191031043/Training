@@ -1,0 +1,8 @@
+com\kgisl\SpringStudentCRUD\config\AppInitializer.class
+com\kgisl\SpringStudentCRUD\Controllers\StudentController.class
+com\kgisl\SpringStudentCRUD\Dao\StudentDao.class
+com\kgisl\SpringStudentCRUD\model\Student.class
+com\kgisl\SpringStudentCRUD\config\MvcConfig.class
+com\kgisl\SpringStudentCRUD\service\StudentService.class
+com\kgisl\SpringStudentCRUD\config\WebConfig.class
+com\kgisl\SpringStudentCRUD\Mapper\StudentRowMapper.class
